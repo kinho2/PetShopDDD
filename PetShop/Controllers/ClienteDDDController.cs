@@ -1,10 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Petshop.Domain.Entities;
 using Petshop.Domain.Interfaces.Services;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace PetShop.Controllers
 {
@@ -31,7 +27,7 @@ namespace PetShop.Controllers
         }
 
         // GET: ClienteController/Create
-        public ActionResult Create()
+        public ActionResult Create(int id)
         {
             return View();
         }
