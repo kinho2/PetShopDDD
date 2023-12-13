@@ -27,7 +27,7 @@ namespace PetShop.Controllers
         }
 
         // GET: ClienteController/Create
-        public ActionResult Create(int id)
+        public ActionResult Create()
         {
             return View();
         }
